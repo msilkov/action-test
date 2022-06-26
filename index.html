@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Право TV - Первый юридический</title>
+  <link rel="stylesheet" href="./pages/index.css">
+</head>
+
+<body class="page">
+
+  <div class="page__container">
+    <img class="page__bg" src="./images/page-bg.svg" alt="фон главной страницы">
+
+    <header class="header page__header">
+
+      <div class="header__top section ">
+        <a href="#" target="_blank" class="login">
+          <p class="login__logo"></p>
+          <p class="login__text">Вход или регистрация</p>
+        </a>
+      </div>
+      <div class="header__bottom section section_size_narrow">
+        <a href="#" target="_blank" class="logo"><img src="./images/icons/logo-icon.svg" alt="Актион - Право"
+            class="logo__img">
+        </a>
+        <img src="./images/icons/hamburger-menu-svgrepo-com.svg" alt="демо бургер меню" class="burger-demo">
+        <nav class="navigation">
+          <ul class="header__nav">
+            <li class="header__nav-item"><a href="#" target="_blank" class="header__link">Видео месяца</a></li>
+            <li class="header__nav-item"><a href="#" target="_blank" class="header__link">Премьеры</a></li>
+            <li class="header__nav-item"><a href="#" target="_blank" class="header__link">Звезды</a></li>
+            <li class="header__nav-item"><a href="#" target="_blank" class="header__link">Видеоинструкции</a></li>
+          </ul>
+        </nav>
+        <p class="header__promo-text">Уже скоро</p>
+      </div>
+    </header>
+
+    <main class="content page__content">
+
+      <section class="pravo-tv page__section section">
+
+        <div class="pravo-tv__slider">
+          <img class="slider__item" src="./images/test-slider.png" alt="">
+          <img class="slider__item" src="./images/test-slider.png" alt="">
+          <img class="slider__item" src="./images/test-slider.png" alt="">
+          <img class="slider__item" src="./images/test-slider.png" alt="">
+          <img class="slider__item" src="./images/test-slider.png" alt="">
+        </div>
+
+        <article class="pravo-tv__banner">
+          <div class="pravo-tv__banner-item">
+            <div class="pravo-tv__product">
+              <img src="./images/icons/banner-logo.svg" alt="Право-ТВ" class="pravo-tv__product-logo">
+              <p class="pravo-tv__product-desc">Первый юридический</p>
+            </div>
+            <p class="pravo-tv__banner-text">Бесплатный доступ для всех, кто подпишется на ВИП-версию журнала «Юрист
+              компании» до конца июня</p>
+          </div>
+          <button class="pravo-tv__banner-btn">Оставьте заявку и мы с вами свяжемся</button>
+        </article>
+
+      </section>
+
+    </main>
+
+
+  </div> <!-- page__container ending-->
+  <script src="./vendor/libs/jquery/jquery-3.6.0.min.js"></script>
+  <script src="./vendor/libs/slick/slick.min.js"></script>
+  <script src="./script/slider.js"></script>
+</body>
+
+</html>

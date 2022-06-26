@@ -1,0 +1,66 @@
+.pravo-tv__banner {
+	box-sizing: border-box;
+	max-width: 1660px;
+	background: linear-gradient(258.21deg, #ce23d1 0%, #5c23d1 50.01%);
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: row;
+	padding: 15px 95px 33px 120px;
+}
+
+.pravo-tv__banner-item {
+	margin-right: 155px;
+}
+
+.pravo-tv__banner-text {
+	font-weight: 400;
+	font-size: 28px;
+	line-height: 1.2;
+	color: #ffffff;
+	margin: 0;
+	max-width: 795px;
+}
+
+.pravo-tv__banner-btn {
+	background-color: #ffffff;
+	border-radius: 113.424px;
+	border: none;
+	margin-top: 18px;
+	padding: 10px 45px;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 2.3;
+	text-align: center;
+	color: #000000;
+	cursor: pointer;
+	transition: all 0.5s;
+}
+
+.pravo-tv__banner-btn:hover {
+	background-color: #ce23d1;
+	color: #ffffff;
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+	.pravo-tv__banner {
+		flex-direction: column;
+		padding: 15px 20px;
+		max-width: 280px;
+	}
+	.pravo-tv__banner-item {
+		margin-right: 0;
+	}
+	.pravo-tv__banner-text {
+		font-size: 14px;
+		max-width: 220px;
+		margin-bottom: 20px;
+	}
+	.pravo-tv__banner-btn {
+		margin-top: 0;
+		padding: 5px 10px;
+		font-size: 18px;
+		line-height: 1.1;
+		
+	}
+}

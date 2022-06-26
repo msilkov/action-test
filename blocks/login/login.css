@@ -1,0 +1,11 @@
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+	background-color: #6e7992;
+	color: #d6d6d6;
+	text-decoration: none;
+	padding: 3px 13px 3px 7px;
+}
+
+

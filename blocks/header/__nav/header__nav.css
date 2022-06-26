@@ -1,0 +1,8 @@
+.header__nav {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	list-style-type: none;
+	padding: 0;
+	margin: 0 269px 0 0;
+}

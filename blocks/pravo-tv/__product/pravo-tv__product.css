@@ -1,0 +1,32 @@
+.pravo-tv__product {
+	display: flex;
+  flex-direction: row;
+	align-items: center;
+	margin-bottom: 10px;
+}
+.pravo-tv__product-logo {
+	max-width: 282px;
+	margin-right: 76px;
+}
+.pravo-tv__product-desc {
+	font-weight: 400;
+	font-size: 46px;
+	line-height: 1.1;
+	color: #ffffff;
+	margin: 10px 0 0 0;
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .pravo-tv__product {
+  flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 15px;
+  }
+  .pravo-tv__product-logo {
+    max-width: 120px;
+    margin-right: 0;
+  }
+  .pravo-tv__product-desc {
+    font-size: 20px;
+    margin: 0 0 10px 0;
+  }
+}
